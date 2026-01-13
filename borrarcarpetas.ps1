@@ -16,3 +16,9 @@ else {
 }
 
 Write-Host "seguimos...."
+
+$resp1 = Read-Host "¿Realmente quieres borrar todo sin posibilidad de recuperar? (S/N)"
+if ($resp1.ToUpper() -ne "S") {
+Write-Host "Operación cancelada."
+exit
+}
