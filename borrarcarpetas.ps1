@@ -12,4 +12,7 @@ Write-Host "La ruta especificada  existe: $RutaCarpeta"
 }
 else {
     Write-Host "La ruta especificada no existe: $RutaCarpeta"
+    exit 1
 }
+
+Write-Host "seguimos...."
