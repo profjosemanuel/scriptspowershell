@@ -3,3 +3,4 @@ param(
 [string]$RutaCarpeta
 )
 
+Write-Host "la ruta de la carpeta es $Rutacarpeta"
