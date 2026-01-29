@@ -1,6 +1,6 @@
 param(
 [Parameter(Mandatory = $true)]
-[string]$RutaCarpeta
+[string]$RutaArchivo
 )
 
-Write-Host "la ruta de la carpeta es $Rutacarpeta"
+Write-Host "la ruta del archivo es $RutaArchivo
