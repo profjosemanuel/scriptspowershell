@@ -3,4 +3,4 @@ param(
 [string]$RutaArchivo
 )
 
-Write-Host "la ruta del archivo es $RutaArchivo
+Write-Host "la ruta del archivo es $RutaArchivo"
