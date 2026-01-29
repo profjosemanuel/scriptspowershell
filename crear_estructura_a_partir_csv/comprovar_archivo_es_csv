@@ -1,0 +1,14 @@
+param (
+ [string]$Archivo
+)
+# Verificar que se haya pasado un argumento
+if (-not $Archivo) {
+Write-Error "No se proporcionó ningún archivo."
+exit 1
+}
+# Verificar que la extensión sea .csv
+if ([System.IO.Path]::GetExtension($Archivo) -ne ".csv") {
+Write-Error "El archivo debe tener extensión .csv"
+exit 1
+}
+Write-Host "Archivo válido: $Archivo"
